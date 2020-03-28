@@ -106,6 +106,15 @@ function keyPressed() {
 
 }
 
+function touchStarted() {
+  if (touches[0]<width/2) {
+    let randCol=random(255);
+	background(randCol);
+  }else{
+  	saveCanvas(canvas, 'WaveClock_FabioMarchiano', 'jpg');
+  }
+ }
+
 
 </script>
 
