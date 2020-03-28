@@ -121,6 +121,6 @@ function touchStarted() {
 <br>
 
 Press BACKSPACE if you want the clock to restart with a random background.<br>
-If you like what you see save it pressing ENTER!
+If you like what you see save it pressing ENTER.
 
-If you are from the phone, press wherever on canvas to restart the background or press it precisely on the bottom right to save the image!
+If you are from the phone, press wherever on canvas to restart the background or press it precisely on the bottom right to save the image.
