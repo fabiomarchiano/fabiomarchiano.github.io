@@ -112,7 +112,7 @@ function keyPressed() {
 }
 
 function touchStarted() {
-  if ((touches[0]>2*width/3)&&((touches[1]>2*height/3))) {
+  if ((touches[0]>((2*width)/3))&&(touches[1]>((2*height)/3))) {
 	saveCanvas(canvas, 'WaveClock_FabioMarchiano', 'jpg');
   }else{
   	let randCol=random(255);
