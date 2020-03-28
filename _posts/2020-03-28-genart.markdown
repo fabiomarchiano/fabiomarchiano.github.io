@@ -1,0 +1,29 @@
+---
+layout: post
+title:  Generative Art - Matt Pearson
+date:   2020-03-28
+description: Pills from Generative Art by Matt Pearson
+---
+
+
+<blockquote>
+From the standpoint of Taoist philosophy natural forms are not made but grown, and there is a radical difference between the organic and the mechanical.
+Things which are made, such as houses, furniture, and machines, are an assemblage of parts put together, or shaped, like sculpture, from the outside inwards.
+But things which grow shape themselves from within outwards—they are not assemblages of originally distinct parts; they partition themselves, elaborating their own structure from the whole to the parts, from the simple to the complex.
+-Alan Watts
+</blockquote>
+
+What is *Generative Art* (GenArt)? 
+
+In brief it's about **creating the organic using the mechanical** and having some fun playing on the border of the two. Coding for example, can be seen just as a really powerful tool but that doesn't belong to the informatic community, why not to use it then to generate something autonomous and unpredictable? why not to use it to generate *art*?
+
+
+We are not just talking about visual art and coding..some good examples come also from music! Some cool examples are John Cage's note-less 4'33", Brian Eno's "Discreet Music LP" and Mozart's *Musikalisches Würfelspiel* in which we make use of dice to assemble in more than 7000 different ways the music partiture.
+
+<blockquote>
+The machine makes the music, but I created the machine…
+I don’t know where responsibility lies in that situation.
+—Sean Booth
+</blockquote>
+
+
