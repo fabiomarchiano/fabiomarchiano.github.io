@@ -27,14 +27,19 @@ let _radius;
 let _strokeCol;
 let _strokeChange;
 
-
 function setup() {
+
   width = $(window).width();
   height = $(window).height();
   if(width>720){
   	width = 720;
   	height = 480;
   }
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	width = 300;
+  	height = 300;
+ 
+}
   let canvas = createCanvas(width, height);
   canvas.parent("sketch");
   smooth();
