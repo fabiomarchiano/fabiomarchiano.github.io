@@ -112,12 +112,10 @@ function keyPressed() {
 }
 
 function touchStarted() {
-  if ((touches[0]>((2*width)/3))&&(touches[1]>((2*height)/3))) {
-	saveCanvas(canvas, 'WaveClock_FabioMarchiano', 'jpg');
-  }else{
+
   	let randCol=random(255);
 	background(randCol);
-  }
+
  }
 
 
@@ -128,4 +126,4 @@ function touchStarted() {
 Press BACKSPACE if you want the clock to restart with a random background.<br>
 If you like what you see save it pressing ENTER.
 
-If you are from the phone, press wherever on canvas to restart the background or press it precisely on the bottom right to save the image.
+If you are from the phone, press wherever on canvas to restart the background.
