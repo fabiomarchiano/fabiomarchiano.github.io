@@ -12,6 +12,7 @@ Good to know that we can already obtain cool and unexpected results by applying 
 
 
 <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <div id="sketch"> </div>
 
 <script>
@@ -28,8 +29,12 @@ let _strokeChange;
 
 
 function setup() {
-  width = 720;
-  height = 480;
+  width = $(window).width();
+  height = $(window).height();
+  if(width>720){
+  	width = 720;
+  	height = 480;
+  }
   let canvas = createCanvas(width, height);
   canvas.parent("sketch");
   smooth();
@@ -107,4 +112,4 @@ function keyPressed() {
 <br>
 
 Press BACKSPACE if you want the clock to restart with a random background.<br>
-If you like what youu see save it pressing ENTER!
+If you like what you see save it pressing ENTER!
