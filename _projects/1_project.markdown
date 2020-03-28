@@ -107,7 +107,7 @@ function keyPressed() {
 }
 
 function touchStarted() {
-  if (touches[0]<width/2) {
+  if (value < 2000){
     let randCol=random(255);
 	background(randCol);
   }else{
