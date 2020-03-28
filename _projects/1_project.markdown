@@ -122,3 +122,5 @@ function touchStarted() {
 
 Press BACKSPACE if you want the clock to restart with a random background.<br>
 If you like what you see save it pressing ENTER!
+
+If you are from the phone, quick touchscreen press to change background or keep it pressed longer to save the image!
