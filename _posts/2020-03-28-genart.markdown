@@ -17,6 +17,7 @@ What is *Generative Art* (GenArt)?
 
 In brief it's about **creating the organic using the mechanical** and having some fun playing on the border of the two. Coding for example, can be seen just as a really powerful tool but that doesn't belong to the informatic community, why not to use it then to generate something autonomous and unpredictable? why not to use it to generate *art*?
 
+Here an example: <a href="https://fabiomarchiano.github.io/projects/waveclock" target="_blank">Wave Clock</a>.
 
 We are not just talking about visual art and coding..some good examples come also from music! Some cool examples are John Cage's note-less 4'33", Brian Eno's "Discreet Music LP" and Mozart's *Musikalisches Würfelspiel* in which we make use of dice to assemble in more than 7000 different ways the music partiture.
 
@@ -27,3 +28,4 @@ I don’t know where responsibility lies in that situation.
 </blockquote>
 
 
+An interesting concept that we can explore with GenArt is the "emergence", the observation of the formation of complex patterns from a large number of very simple interactions, as we observe in nature with ant colonies, starling murmurations and maybe consciousness for example. A good starting point to deepen the topic is Craig Reynolds'e Boids algorithm (1987). 
