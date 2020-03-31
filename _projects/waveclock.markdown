@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Processing 1
-description: Wave Clock
+title: Wave Clock
+description: Processing + p5.js
 img: /assets/img/wave_clock.png
 ---
 
@@ -126,4 +126,4 @@ function touchStarted() {
 Press BACKSPACE if you want the clock to restart with a random background.<br>
 If you like what you see save it pressing ENTER.
 
-If you are from the phone, press wherever on canvas to restart the background.
+If you are from the phone, press wherever on canvas restart with a random background.
