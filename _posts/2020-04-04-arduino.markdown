@@ -1,0 +1,48 @@
+---
+layout: post
+title:  Arduino - John Nussey
+date:   2020-04-02
+description: Pills of Arduino for Dummies
+---
+
+
+What is an *Arduino*?
+Arduino is basically a prototyping platform, more specifically a printed circuit board (PCB) on which we find a microprocessor and connector components (sockets), which allow us to easily plug in different output and input (I/O) devices. Arduino is also the software environment in which we can write the commands that will tell to the Arduino board what to do.
+
+Two little fun-facts that is good to know:
+* First of all I can tell you really proudly that Arduino comes from…...Italy (yes we had a couple of other breakthroughs after pizza). The project indeed started at the Interaction Design Institute of Ivrea (IDII) and the legend says that its name comes after the bar in Ivrea where the developers (Massimo Banzi and David Cuartielles) used to meet to discuss the project.
+
+* It has been developed just after Processing, bearing in mind its principles and conventions (so, if you are already practical with it, you will find yourself really at your ease to start playing with microprocessors, good news!).
+<br>
+
+<img src="/assets/img/arduino-uno.jpg" style="max-width: 100%; height: auto;"> 
+
+<br>
+Let's start with some basics and vocabulary:
+
+<h4>Connettors</h4>
+
+Connectors are needed to connect other I/O devices. There are three kinds of them: digital pins, analog input pins and power pins.<br>
+*Digital pins* can send and receive binary data (in computer thinking 0/1).That is achieved by the simple passing or not the 5V current voltage (on/off states).<br>
+*Analog pins* can receive analog values and that by sensing different voltage values (in the range 0-5V). There are not analog outputs but instead we find digital pins followed by the ~ symbol. It stays for *pulse width modulation* (PWM) and it is a technique which gives us the impression of an analog output using digital pins.<br>
+*Power pins* then are of course needed to distribute the power. We find among those the voltage in (vin) and ground (GND) pins.
+
+<h4>LEDs</h4>
+
+We find build in 4 leds:
+* ON = tell us if the Arduino is powered
+* RX = is receiving data
+* TX = is transmitting data
+* L (pin 13) = test led
+
+<h4>Extra components</h4>
+
+The most common one better to know:
+* LEDs are emitting light diodes
+* Resistors are used to smooth the current flow by a fixed amount
+* Potentiometers are variable resistors (they can change their resistance)
+* Diodes have high resistance to flow current but just in one direction
+* Relays are physical switches  
+* Transistors are chemical switches (faster)
+* Jump wires are the cables (single or multi cored) used to enable circuit connections
+* Breadboard, on the contrary, is a physical support which allows to connect circuitry elements by simple plug them in 
