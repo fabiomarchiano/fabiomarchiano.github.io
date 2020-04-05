@@ -28,4 +28,11 @@ I don’t know where responsibility lies in that situation.
 </blockquote>
 
 
-An interesting concept that we can explore with GenArt is the "emergence", the observation of the formation of complex patterns from a large number of very simple interactions, as we observe in nature with ant colonies, starling murmurations and maybe consciousness for example. A good starting point to deepen the topic is Craig Reynolds'e Boids algorithm (1987). 
+An interesting concept that we can explore with GenArt is the "emergence", the observation of the formation of complex patterns from a large number of very simple interactions, as we observe in nature with ant colonies, starling murmurations and maybe consciousness for example. A powerful example to deepen the emergence idea is Cellular Automata (CA). 
+
+<blockquote>
+To play life you must have a fairly large checkerboard and a plentiful supply of flat counters of two colors. It is possible to work with pencil and graph paper but it is much easier, particularly for beginners, to use counters and a board.
+— Martin Gardner
+</blockquote>
+
+CA is powerful because is not just a visual trick, but a relelevant instrument for the study of all the branches of science, as wonderfully exposed in <a href="https://www.wolframscience.com/nks/" target="_blank">A New Kind of Science</a> by Stephen Wolfram. What we mean with CA is basically a **grid** system in which each cell's **state** is calculated on the base of its **neighborhood**'s state at the previous moment in "time" (previous generation). One of the most famous 2D CA is the Conway's *Game of Life*, sure you already heard about!
