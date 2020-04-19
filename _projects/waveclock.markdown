@@ -2,17 +2,15 @@
 layout: page
 title: Wave Clock
 description: Processing + p5.js
-img: /assets/img/wave_clock.png
+img: /assets/img/WaveClock.jpg
 ---
 
 Had some fun messing around with the artwork *Wave Clock* (2009) by Matt Pearson.
 That's a cool starting point to reason about what **randomness** is and its meaning when associated with computer's calculations. We can use Perlin noise (developed in the ‘80 by Ken Perlin), as we did in this case, to simulate a more “naturalist” variance.
 Good to know that we can already obtain cool and unexpected results by applying some randomness to basic shapes!  
 <br>
-
-
-<script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/assets/js/processing.js"></script>
+<script src="/assets/js/p5.min.js"></script>
 <div id="sketch"> </div>
 
 <script>
@@ -103,17 +101,19 @@ function keyPressed() {
 	saveCanvas(canvas, 'WaveClock_FabioMarchiano', 'jpg');
 	}
 
-	if (keyCode === BACKSPACE) {
+	if (key == 'r') {
 		
 		let randCol=random(255);
 		background(randCol);
-	}
+	}else{
+    alert("r and ENTER are the only input allowed for this project!:)");
+  }
 
 }
 
 function touchStarted() {
 
-  	let randCol=random(255);
+  let randCol=random(255);
 	background(randCol);
 
  }
@@ -123,7 +123,7 @@ function touchStarted() {
 
 <br>
 
-Press BACKSPACE if you want the clock to restart with a random background.<br>
+Press 'r' if you want the clock to restart with a random background.<br>
 If you like what you see save it pressing ENTER.
 
-If you are from the phone, press wherever on canvas restart with a random background.
+If you are from the phone, touch on the screen to restart with a random background.

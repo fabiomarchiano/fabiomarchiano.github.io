@@ -24,6 +24,6 @@ I am currently doing a PhD in the <a href="https://sites.google.com/view/haberma
 Actually my research topic focus on helping unravelling the role of mitochondria during ageing and sarcopenia (muscle loss) through the development of a web-based visual data mining platform (<a href="http://mitoxplorer.ibdm.univ-mrs.fr/about.html" target="_blank">mitoXplorer</a>) aimed to investigate the expression dynamics of mito-genes in different conditions and of a web-based tool to predict genes co-regulation by transcription factors (<a href="http://chimborazo.ibdm.univ-mrs.fr/AnnoMiner/index.html" target="_blank">AnnoMiner</a>).
 
 
-I'm also developing several interests outside my academic research field such as: music, Generative Art and creative coding (Processing), Blockchain and microcontrollers (Arduino). 
+I'm also developing several interests outside my academic research field such as: music, Generative Art and creative coding (Processing) and microcontrollers (Arduino). 
 
 Don't hesitate to contact me for questions/collaborations or new ideas!
