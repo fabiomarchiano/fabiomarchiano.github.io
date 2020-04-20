@@ -14,4 +14,4 @@ The landscape texture is build using the 2D Perlin noise, which allows us to gen
 </video> 
 <br>
 
-Here some references to the documentation about <a href="https://processing.org/reference/lights_.html" target="_blank">lights</a> and basic principles regarding the <a href="https://processing.org/tutorials/p3d/" target="_blank">3D reder (P3D)</a>.
+Here some references to the documentation about <a href="https://processing.org/reference/lights_.html" target="_blank">lights</a> and basic principles regarding the <a href="https://processing.org/tutorials/p3d/" target="_blank">3D render</a> (P3D).
