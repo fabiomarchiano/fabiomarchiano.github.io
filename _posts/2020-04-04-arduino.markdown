@@ -2,11 +2,19 @@
 layout: post
 title:  Arduino - John Nussey
 date:   2020-04-02
+<<<<<<< HEAD
 description: Pills of Arduino for Dummies by John Nussey
 ---
 
 
 What is an *Arduino*?<br><br>
+=======
+description: Pills of Arduino for Dummies
+---
+
+
+What is an *Arduino*?
+>>>>>>> ca0d68bc79ccce79926b16070063476d53817338
 Arduino is basically a prototyping platform, more specifically a printed circuit board (PCB) on which we find a microprocessor and connector components (sockets), which allow us to easily plug in different output and input (I/O) devices. Arduino is also the software environment in which we can write the commands that will tell to the Arduino board what to do.
 
 Two little fun-facts that is good to know:
@@ -46,8 +54,11 @@ The most common one better to know:
 * Transistors are chemical switches (faster)
 * Jump wires are the cables (single or multi cored) used to enable circuit connections
 * Breadboard, on the contrary, is a physical support which allows to connect circuitry elements by simple plug them in 
+<<<<<<< HEAD
 
 
 <h4>Get started!</h4>
 
 If you want to do some prototyping, even before having bought you first Arduino, <a href="https://www.tinkercad.com/circuits" target="_blank">here</a> you can find a great platform where you can virtually (safely!) test your circuitry!
+=======
+>>>>>>> ca0d68bc79ccce79926b16070063476d53817338
