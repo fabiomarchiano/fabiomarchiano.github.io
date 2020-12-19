@@ -5,7 +5,7 @@ title: CV
 description: My academic experiences in brief
 ---
 
-
+Download a complete version of my <a href="../../../assets/pdf/cv.pdf" download="">CV</a>
 
 #### Current position
 
