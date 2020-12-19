@@ -10,7 +10,8 @@
 }
 
 .site-title {
-    font-size: 20px;
+    font-size: 25px;
+    color: $theme-color;
     line-height: $nav-height;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -102,7 +103,7 @@
     z-index: 25;
     h1{
         color: $theme-color;
-        font-size:75px;
+        font-size:60px;
     }
     h2{
         font-size:25px;

@@ -42,8 +42,8 @@ $red-1:             #ea4b06 !default;
 $orange:            #F29105 !default;
 $orange-1:          #ffcc22 !default;
 $blue:              #2698BA !default;
-$blue-1:            #00aeff !default;
-$dark-blue:         #00369f !default;
+$blue-1:            #00acca !default;
+$dark-blue:         #0075e2 !default;
 $green:             #00ab37 !default;
 $green-1:           #11D68B !default;
 $green-2:           #00cf26 !default;
@@ -56,12 +56,12 @@ $light-pink:        #ffdddd !default;
 $yellow:            #efcc00 !default;
 
 $white:             #fff !default;
-$dark-gray:         rgb(31, 30, 30) !default;
+$dark-gray:         rgb(26, 27, 29) !default;
 $mid-gray:          #666 !default;
 $light-gray:        #ccc !default;
 $lighter-gray:      #eee !default;
 
-$grey-color:        #828282;
+$grey-color:        #696969;
 $grey-color-light:  lighten($grey-color, 40%);
 $grey-color-dark:   darken($grey-color, 25%);
 
