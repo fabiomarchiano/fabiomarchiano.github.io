@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Fabio Marchiano</title>
+  <title>Fabio Marchiano | Arduino - John Nussey</title>
   <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/blog/2020/arduino/">
 </head>
 
 
@@ -92,36 +92,75 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1>The Pills</h1>
-  <h2>A concentrate of what I read/listen/watch</h2>
-</div>
+        <div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">Arduino - John Nussey</h1>
+    <p class="post-meta">April 2, 2020</p>
+  </header>
 
-<ul class="post-list">
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2020/processing/">Processing</a></h2>
-      <p class="post-meta">April 8, 2020 — 00:00</p>
-      <p>Pills from Processing</p>
-    </li>
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2020/arduino/">Arduino - John Nussey</a></h2>
-      <p class="post-meta">April 2, 2020 — 00:00</p>
-      <p>Pills of Arduino for Dummies by John Nussey</p>
-    </li>
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2020/genart/">Generative Art - Matt Pearson</a></h2>
-      <p class="post-meta">March 28, 2020 — 00:00</p>
-      <p>Pills from Generative Art by Matt Pearson</p>
-    </li>
-  
+  <article class="post-content">
+    <p>What is an <em>Arduino</em>?</p>
+
+<p>Arduino is basically a prototyping platform, more specifically a printed circuit board (PCB) on which we find a microprocessor and connector components (sockets), which allow us to easily plug in different output and input (I/O) devices. Arduino is also the software environment in which we can write the commands that will tell to the Arduino board what to do.</p>
+
+<p>Two little fun-facts that is good to know:</p>
+<ul>
+  <li>
+    <p>First of all I can tell you really proudly that Arduino comes from……Italy (yes we had a couple of other breakthroughs after pizza). The project indeed started at the Interaction Design Institute of Ivrea (IDII) and the legend says that its name comes after the bar in Ivrea where the developers (Massimo Banzi and David Cuartielles) used to meet to discuss the project.</p>
+  </li>
+  <li>
+    <p>It has been developed just after Processing, bearing in mind its principles and conventions (so, if you are already practical with it, you will find yourself really at your ease to start playing with microprocessors, good news!).
+<br /></p>
+  </li>
 </ul>
 
+<p><img src="/assets/img/arduino-uno.jpg" style="max-width: 100%; height: auto;" /></p>
 
+<p><br />
+Let’s start with some basics and vocabulary:</p>
 
+<h4>Connettors</h4>
+
+<p>Connectors are needed to connect other I/O devices. There are three kinds of them: digital pins, analog input pins and power pins.<br />
+<em>Digital pins</em> can send and receive binary data (in computer thinking 0/1).That is achieved by the simple passing or not the 5V current voltage (on/off states).<br />
+<em>Analog pins</em> can receive analog values and that by sensing different voltage values (in the range 0-5V). There are not analog outputs but instead we find digital pins followed by the ~ symbol. It stays for <em>pulse width modulation</em> (PWM) and it is a technique which gives us the impression of an analog output using digital pins.<br />
+<em>Power pins</em> then are of course needed to distribute the power. We find among those the voltage in (vin) and ground (GND) pins.</p>
+
+<h4>LEDs</h4>
+
+<p>We find build in 4 leds:</p>
+<ul>
+  <li>ON = tell us if the Arduino is powered</li>
+  <li>RX = is receiving data</li>
+  <li>TX = is transmitting data</li>
+  <li>L (pin 13) = test led</li>
+</ul>
+
+<h4>Extra components</h4>
+
+<p>The most common one better to know:</p>
+<ul>
+  <li>LEDs are emitting light diodes</li>
+  <li>Resistors are used to smooth the current flow by a fixed amount</li>
+  <li>Potentiometers are variable resistors (they can change their resistance)</li>
+  <li>Diodes have high resistance to flow current but just in one direction</li>
+  <li>Relays are physical switches</li>
+  <li>Transistors are chemical switches (faster)</li>
+  <li>Jump wires are the cables (single or multi cored) used to enable circuit connections</li>
+  <li>Breadboard, on the contrary, is a physical support which allows to connect circuitry elements by simple plug them in 
+«««&lt; HEAD</li>
+</ul>
+
+<h4>Get started!</h4>
+
+<p>If you want to do some prototyping, even before having bought you first Arduino, <a href="https://www.tinkercad.com/circuits" target="_blank">here</a> you can find a great platform where you can virtually (safely!) test your circuitry!</p>
+
+  </article>
+
+  
+
+</div>
 
       </div>
     </div>
